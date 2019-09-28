@@ -77,3 +77,7 @@ From a terminal, execute this:
 $ mongod --config /usr/local/etc/mongod.conf 
 ``` 
 
+## Handling Promises in the Database Connection 
+
+In order to force to connect to the database first we need to use the instruction `await`, this in combination with the initApp() as async function, will let app know to wait until the database is connected to proced later with the App initialization.
+
