@@ -81,3 +81,11 @@ $ mongod --config /usr/local/etc/mongod.conf
 
 In order to force to connect to the database first we need to use the instruction `await`, this in combination with the initApp() as async function, will let app know to wait until the database is connected to proced later with the App initialization.
 
+## Processing Values to Javascript Object
+
+For this we can use body-parser library to install it we have to use:
+```console
+$ npm i body-parser --save
+``` 
+
+
