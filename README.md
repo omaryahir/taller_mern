@@ -42,3 +42,37 @@ In order to config this we require to install dotenv plugin:
 ```console
 $ npm i dotenv --save 
 ```
+
+## MongoDB
+
+### Installation 
+
+In order to install mongo this link can be useful:
+
+https://docs.mongodb.com/manual/installation/
+
+Since I am using OSX I have used Homebrew to command it:
+
+```console
+$ brew install mongodb-community@4.2
+``` 
+
+If you get a formula error, you can use to update the tap:
+```console
+$ brew tap mongodb/brew
+```
+
+The install creates:
+- The configuration file (/usr/local/etc/mongod.conf)
+- The log directory path (/usr/local/var/log/mongodb)
+- The data directory path (/usr/local/var/mongodb)
+
+
+### Run MongoDB
+
+From a terminal, execute this:
+
+```console
+mongod --config /usr/local/etc/mongod.conf 
+``` 
+
