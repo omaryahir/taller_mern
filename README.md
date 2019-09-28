@@ -42,6 +42,7 @@ In order to config this we require to install dotenv plugin:
 ```console
 $ npm i dotenv --save 
 ```
+This should be used with a file named config.js
 
 ## MongoDB
 
@@ -73,6 +74,6 @@ The install creates:
 From a terminal, execute this:
 
 ```console
-mongod --config /usr/local/etc/mongod.conf 
+$ mongod --config /usr/local/etc/mongod.conf 
 ``` 
 
