@@ -88,4 +88,30 @@ For this we can use body-parser library to install it we have to use:
 $ npm i body-parser --save
 ``` 
 
+## FrontEnd Start 
+
+To create your react application you can use this next command:
+
+```console 
+$ npx create-react-app intro-mern-frontend
+``` 
+
+### Run the FrontEnd
+
+To run the frontEnd we can go to the folder and use:
+```console 
+$ npm start
+```
+
+### UI Library 
+
+This library is really useful that has already created some components that we can re-use in our projects: https://www.npmjs.com/package/react-bulma-components
+
+This can be installed using:
+
+```console
+$ npm i react-bulma-components --save
+```
+
+
 
