@@ -114,4 +114,18 @@ $ npm i react-bulma-components --save
 ```
 
 
+## Run the project 
+
+```console 
+// Run Mongo
+$ mongod --config /usr/local/etc/mongod.conf
+
+// Run BackEnd
+$ cd intro-mern-backend 
+$ npm start-dev 
+
+// Run FrontEnd
+$ cd intro-mern/intro-mern-frontend
+$ npm start
+```
 
